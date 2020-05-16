@@ -59,17 +59,17 @@ print(t)
 #   String 
 a <- "Hello"
 b <- 'How'
-c <- "are you? "
+c <- "are you bella? "
 print(paste(a,b,c)) #"Hello How are you? "
 print(paste(a,b,c, sep = "-")) #"Hello-How-are you? "
 print(paste(a,b,c, sep = "", collapse = "")) #"HelloHoware you? "
 
 
 print(.libPaths())
-print(library())
+#print(library())
 
 # Combine rows form both the data frames.
-all.addresses <- rbind(addresses,new.address)
-s
+all.addresses <- rbind(addresses,new.address) # rbind , cbind
+
 print("Code End")
 
