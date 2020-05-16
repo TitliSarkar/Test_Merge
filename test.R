@@ -14,7 +14,7 @@ v <- TRUE
 print(paste0(class(v),v))
 
 # Create a vector
-apple <- c('red','green',"yellow")
+apple <- c('red','green',"yellow", "purple","indigo")
 cat(class(apple), apple)
 
 # Create a factor object.
