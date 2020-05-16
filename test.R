@@ -8,16 +8,16 @@ print (myString)
 
 # Multiline comments
 if(FALSE) {
-  'This is a demo for multi-line comments and it should be put inside either a 
+  'This is a demo for multi-line comments and it should be put inside either a
       single OR double quote'
 }
 
 # Create a variable
-v <- TRUE 
+v <- TRUE
 print(paste0(class(v),v))
 
 # Create a vector
-apple <- c('red','green',"yellow", "purple","indigo")
+apple <- c('red','green',"yellow", "purple","indigo", "orange")
 cat(class(apple), apple)
 
 # Create a factor object.
@@ -27,8 +27,8 @@ print(nlevels(factor_apple))
 
 # Create the data frame.
 BMI <- 	data.frame(
-  gender = c("Male", "Male","Female"), 
-  height = c(152, 171.5, 165), 
+  gender = c("Male", "Male","Female"),
+  height = c(152, 171.5, 165),
   weight = c(81,93, 78),
   Age = c(42,38,26)
 )
@@ -36,10 +36,10 @@ print(BMI)
 
 # finding a variable
 print(ls())
-print(ls(pattern = "apple")) 
+print(ls(pattern = "apple"))
 print(ls(all.name = TRUE)) # all variables, including hidden
 
-#rm(myString) 
+#rm(myString)
 #rm(list = ls()) #delete all variables
 
 v <- c( 2,5.5,6)
@@ -59,7 +59,7 @@ M = matrix( c(2,6,5,1,10,4), nrow = 2,ncol = 3,byrow = TRUE)
 t = M %*% t(M) # Multiply a matric with it's transpose
 print(t)
 
-#   String 
+#   String
 a <- "Hello"
 b <- 'How'
 c <- "are you bella? "
@@ -75,4 +75,3 @@ print(.libPaths())
 all.addresses <- rbind(addresses,new.address) # rbind , cbind
 
 print("Code End")
-
